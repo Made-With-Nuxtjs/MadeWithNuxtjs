@@ -4,8 +4,7 @@
       <span class="hidden md:flex lg:flex xl:flex lg:justify-center xl:justify-center xl:gap-1 items-center mt-3 lg:mt-2 xl:mt-2 sm:text-center">
         <UIcon name="material-symbols-light:copyright-outline-sharp" size="xl" />
         <p>{{ year }}
-          <a href="https://www.ictlayer.com/">ICT
-            Layer</a>. All Rights Reserved.
+          <a href="https://www.ictlayer.com/"> ICT Layer</a>. All Rights Reserved.
         </p>
       </span>
       <div class="flex justify-center mt-2 space-x-5">

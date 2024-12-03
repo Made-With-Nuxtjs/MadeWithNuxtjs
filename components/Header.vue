@@ -9,7 +9,9 @@
                         }" class="cursor-pointer hover:bg-gray-900 dark:hover:bg-gray-300" />
                     </div>
                     <div class="pl-4 lg:pl-2 xl:pl-2">
-                        <a href="/"><NuxtImg src="/logo.svg" alt="logo" class="w-32" /></a>
+                        <a href="/">
+                            <NuxtImg src="/logo.gif" alt="logo" class="w-32" />
+                        </a>
                     </div>
                 </div>
                 <div class="flex justify-between items-center w-32 sm:w-48 md:w-60 lg:w-60 xl:w-60">
@@ -67,9 +69,6 @@
     </UModal>
 </template>
 <script setup lang="ts">
-// import { ref, onMounted, onUnmounted } from 'vue';
-// import { Footer } from '../.nuxt/components';
-
 const breakpoints = {
     mobile: '(max-width: 639px)',
     sm: '(min-width: 640px) and (max-width: 767px)',

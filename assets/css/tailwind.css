@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Typography Styles */
 h1,
 h2,
@@ -12,10 +11,6 @@ h5,
 h6 {
   @apply text-light-text-primary dark:text-dark-text-primary;
 }
-
-/* p {
-    @apply text-light-text-secondary dark:text-dark-text-muted;
-  } */
 
 h1 {
   font-size: 24pt;
@@ -47,18 +42,16 @@ h6 {
   line-height: 1.5rem;
 }
 
-
-
-div{
-  @apply  text-light-text-secondary dark:text-dark-text-muted;
+div {
+  @apply text-light-text-secondary dark:text-dark-text-muted;
 }
-div{
+div {
   font-size: 12pt;
   line-height: 1.2rem;
   font-style: normal;
 }
 
-p{
+p {
   @apply text-light-text-secondary dark:text-dark-text-muted;
 }
 p {
@@ -67,28 +60,17 @@ p {
   font-style: normal;
 }
 
-a{
-  @apply  text-light-text-secondary dark:text-dark-text-muted;
+a {
+  @apply text-light-text-secondary dark:text-dark-text-muted;
 }
-a{
+a {
   font-size: 10pt;
   line-height: 1.4rem;
   font-style: normal;
 }
-
-/* span{
-  @apply  text-light-text-secondary dark:text-dark-text-muted;
-}
-span{
-  font-size: 8pt;
-  line-height: 1.2rem;
-  font-style: normal;
-} */
-
-
 ul,
-li{
-  @apply  text-light-text-primary dark:text-dark-text-primary;
+li {
+  @apply text-light-text-primary dark:text-dark-text-primary;
 }
 ul {
   list-style-type: none; /* Removes the bullet points */
@@ -103,8 +85,8 @@ li {
 
 /* Button Styles */
 
-button{
-  @apply  text-light-text-primary dark:text-dark-text-muted;
+button {
+  @apply text-light-text-primary dark:text-dark-text-muted;
 }
 button {
   font-size: 1.1rem; /* 16px */
@@ -134,5 +116,3 @@ button {
   font-style: normal;
   transition: color 0.3s ease-in-out; /* Smooth color transition */
 }
-
-
