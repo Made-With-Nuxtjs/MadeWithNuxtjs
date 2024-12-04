@@ -55,7 +55,7 @@ export default defineNuxtConfig({
     }
   },
   robots: {
-    enabled: true
+    enabled: false
   },
   image: {
     quality: 80,
