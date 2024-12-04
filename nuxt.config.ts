@@ -2,7 +2,28 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxt/icon', '@nuxt/image', '@vueuse/nuxt', '@nuxtjs/seo'],
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@vueuse/nuxt',
+    '@nuxtjs/seo',
+    '@nuxthub/core'
+  ],
+  hub: {
+    ai: false,
+    blob: false,
+    browser: false,
+    cache: true,
+    database: false,
+    kv: false,
+    remote: false
+  },
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
+  },
   site: {
     url: 'https://www.madewithnuxtjs.com',
     name: 'Made With Nuxtjs',
