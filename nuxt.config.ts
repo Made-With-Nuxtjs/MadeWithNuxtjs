@@ -54,6 +54,9 @@ export default defineNuxtConfig({
       robots: 'index, follow',
     }
   },
+  robots: {
+    enabled: true
+  },
   image: {
     quality: 80,
   },
