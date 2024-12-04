@@ -21,6 +21,9 @@ importers:
         specifier: latest
         version: 4.5.0(vue@3.5.13(typescript@5.7.2))
     devDependencies:
+      '@iconify-json/material-symbols-light':
+        specifier: ^1.2.8
+        version: 1.2.8
       '@nuxt/image':
         specifier: ^1.8.1
         version: 1.8.1(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.28.0)
@@ -711,6 +714,9 @@ packages:
 
   '@iconify-json/heroicons@1.2.1':
     resolution: {integrity: sha512-TkKfS5U27kE5MXmSGLzPoz95BP5VA9xEJXwJFwmPMVLX+xyWq0OkoiWTUXB0uAoQODpb8BaRpzSydItrq9fIRA==}
+
+  '@iconify-json/material-symbols-light@1.2.8':
+    resolution: {integrity: sha512-EWj/nzvYXVm5sPNbhB7kHR35HClXZyVErytGkaNa6DSp7iFSHi1iG1sg9gzZX8SbR9pz7zjHs5m+p4D+JFJBSA==}
 
   '@iconify/collections@1.0.490':
     resolution: {integrity: sha512-Ovq4xC2gXl2o3P8me4VNuG9ow+tU1d6u+7YHR6rU9+xTrpXKvew76gyls+SqsOgGcQZYl/NuzraKBW1ON3/7jA==}
@@ -5028,6 +5034,10 @@ snapshots:
       vue: 3.5.13(typescript@5.7.2)
 
   '@iconify-json/heroicons@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/material-symbols-light@1.2.8':
     dependencies:
       '@iconify/types': 2.0.0
 
