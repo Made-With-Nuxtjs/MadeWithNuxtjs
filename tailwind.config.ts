@@ -9,9 +9,11 @@ const config: Config = {
         // Define theme-specific text colors
         light: {
           background: {
-            primary: '#9ca3af',
-            secondary: '#d1d5db',
-            tertiary: '#e5e7eb',
+            primary: '#9ca3af', //gray-400
+            secondary: '#d1d5db', //gray-300
+            tertiary: '#e5e7eb', //gray-200
+            paper: '#f9fafb', //gray-50
+            card: '#f9fafb', //gray-50
           },
           text: {
             primary: '#242121',
@@ -21,9 +23,11 @@ const config: Config = {
         },
         dark: {
           background: {
-            primary: '#374151',
-            secondary: '#4b5563',
-            tertiary: '#6b7280',
+            primary: '#374151', //stone-800
+            secondary: '#4b5563', //gray-600
+            tertiary: '#6b7280', //gray-500
+            paper: '#262626', //neutral-800
+            card: '#404040', //neutral-700
           },
           text: {
             primary: '#5188ff',
