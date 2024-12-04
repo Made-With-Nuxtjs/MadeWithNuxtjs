@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# Made With Nuxt JS
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Live](https://www.madewithnuxtjs.com) to learn more.
 
 ## Setup
 
@@ -72,4 +72,4 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [Demo](https://www.madewithnuxtjs.com) for more information.
