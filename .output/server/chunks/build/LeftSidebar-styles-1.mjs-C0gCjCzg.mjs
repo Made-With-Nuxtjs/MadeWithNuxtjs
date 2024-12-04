@@ -1,4 +1,0 @@
-const LeftSidebar_vue_vue_type_style_index_0_scoped_61382ae5_lang = ".scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar{width:5px}.scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar-track{background:#8f8f8f}.scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar-thumb{background-color:#636363;border-radius:2px}.scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar-thumb:hover{background-color:#4b4b4b}.dark .scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar-track{background:#6b6e72}.dark .scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar-thumb{background-color:#444}.dark .scrollbar-custom[data-v-61382ae5]::-webkit-scrollbar-thumb:hover{background-color:#333}";
-
-export { LeftSidebar_vue_vue_type_style_index_0_scoped_61382ae5_lang as L };
-//# sourceMappingURL=LeftSidebar-styles-1.mjs-C0gCjCzg.mjs.map

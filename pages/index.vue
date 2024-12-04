@@ -4,7 +4,7 @@ useSeoMeta({
 })
 </script>
 <template>
-  <main class="mt-24 md:mt-24 lg:mt-28 xl:mt-24 mb-20">
+  <main class="mt-16 sm:mt-2 md:mt-2 lg:mt-6 xl:mt-7">
     <section>
       <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
         <div class="flex flex-wrap items-center justify-center gap-4 mb-4">

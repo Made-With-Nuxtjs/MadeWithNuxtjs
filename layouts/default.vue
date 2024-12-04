@@ -5,7 +5,7 @@
     <RightSidebar />
     <UContainer :ui="{
       base: 'mx-auto',
-      padding: 'p-4 sm:px-6 md:px-20 lg:px-8 xl:px-20',
+      padding: 'p-4 sm:p-6 md:p-20 lg:p-20 xl:p-20',
       constrained: 'max-w-8xl'
     }">
       <slot />
