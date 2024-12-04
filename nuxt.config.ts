@@ -54,13 +54,11 @@ export default defineNuxtConfig({
       robots: 'index, follow',
     }
   },
+  robots: {
+    enabled: false
+  },
   image: {
     quality: 80,
-  },
-  icon: {
-    serverBundle: {
-      collections: ['mdi'] // <!--- this
-    },
   },
   webpack: {
     extractCSS: true,
