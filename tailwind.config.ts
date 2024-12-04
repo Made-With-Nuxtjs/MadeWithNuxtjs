@@ -12,8 +12,8 @@ const config: Config = {
             primary: '#9ca3af', //gray-400
             secondary: '#d1d5db', //gray-300
             tertiary: '#e5e7eb', //gray-200
-            paper: '#f9fafb', //gray-50
-            card: '#f9fafb', //gray-50
+            paper: '#ffffff', //gray-50
+            card: '#ffffff', //gray-50
           },
           text: {
             primary: '#242121',

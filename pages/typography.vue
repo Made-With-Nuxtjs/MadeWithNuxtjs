@@ -135,9 +135,17 @@ useSeoMeta({
                     <UBadge>span</UBadge>
                 </div>
                 <div class="w-96">
-                    <span class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis
                         tenetur
                         unde suscipit, quam beatae rerum inventore consectetur.</span>
+                </div>
+            </div>
+            <div class="flex flex-row justify-start items-center py-2">
+                <div class="w-36">
+                    <UBadge>a</UBadge>
+                </div>
+                <div class="w-96">
+                    <a href="#">Lorem ipsum dolor sits.</a>
                 </div>
             </div>
         </section>

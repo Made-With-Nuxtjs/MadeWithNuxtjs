@@ -10,7 +10,7 @@ useSeoMeta({
         <section class="paperStyle p-4">
             <div>
                 <h3>Card Shape #1</h3>
-                <UDivider color="primary" class="py-4" />
+                <UDivider color="white" class="py-4" />
             </div>
             <CardsShape />
         </section>
@@ -19,7 +19,7 @@ useSeoMeta({
         <section class="paperStyle p-4">
             <div>
                 <h3>Card Best Buy #2</h3>
-                <UDivider color="primary" class="py-4" />
+                <UDivider color="white" class="py-4" />
             </div>
             <CardsBestBuy />
         </section>

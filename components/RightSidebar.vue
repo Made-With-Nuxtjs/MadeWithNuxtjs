@@ -213,38 +213,39 @@ onUnmounted(() => {
 <style scoped>
 /* Light theme styles */
 .scrollbar-custom::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {
-    background: #8f8f8f;
+    background: #d1d5db;
     /* Light gray background */
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-    background-color: #636363;
+    background-color: #c5c9cedc;
     /* Tailwind's gray-400 */
-    border-radius: 2px;
+    border-radius: 3px;
+    border: none;
+    
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-    background-color: #4b4b4b;
+    background-color: #c2c2c2;
     /* Tailwind's gray-600 */
 }
 
 /* Dark theme styles */
 .dark .scrollbar-custom::-webkit-scrollbar-track {
-    background: #6b6e72;
-    /* Tailwind's gray-700 */
+  background: #4b5563; /* Tailwind's gray-700 */
 }
 
 .dark .scrollbar-custom::-webkit-scrollbar-thumb {
-    background-color: #444444;
-    /* Tailwind's gray-600 */
+  background-color: #3d4652e7; /* Tailwind's gray-600 */
 }
 
 .dark .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-    background-color: #333333;
-    /* Tailwind's gray-800 */
+  background-color: #888888; /* Tailwind's gray-800 */
+  border-radius: 3px;
+    border: none;
 }
 </style>

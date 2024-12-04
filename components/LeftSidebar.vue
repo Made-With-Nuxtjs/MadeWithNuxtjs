@@ -162,7 +162,7 @@ onUnmounted(() => {
 <template>
     <aside @mouseenter="when_is_hover" @mouseleave="when_is_not_hover" v-show="openLeftSidebar"
         :class="{ 'top-0': !isHeaderVisible, 'top-[72px] lg:top-[92px] xl:top-[92px]': isHeaderVisible }"
-        class="hidden fixed h-full md:flex lg:flex flex-col justify-between left-0 z-40 w-18 bg-light-background-secondary border-r border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary"
+        class="hidden fixed h-full md:flex lg:flex flex-col justify-between left-0 z-40 w-18 bg-light-background-secondary border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary"
         aria-label="Sidebar">
         <div class="py-1 overflow-auto hover:overflow-y-auto h-full scrollbar-custom">
             <ul class="space-y-2 p-3">
@@ -185,7 +185,7 @@ onUnmounted(() => {
     </aside>
     <aside @mouseenter="when_is_hover" @mouseleave="when_is_not_hover" v-if="leftSidebar || is_LeftSidebar"
         :class="{ 'top-0': !isHeaderVisible, 'top-[72px] lg:top-[92px] xl:top-[92px]': isHeaderVisible }"
-        class="fixed flex flex-col justify-between left-0 z-40 w-64 xl:w-64 lg:w-64 h-screen bg-light-background-secondary border-r border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary">
+        class="fixed flex flex-col justify-between left-0 z-40 w-64 xl:w-64 lg:w-64 h-screen bg-light-background-secondary border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary">
         <div class="py-1 overflow-y-auto scrollbar-custom">
             <ul class="space-y-2 p-3">
                 <li v-for="item in menuItems" :key="item.label" class="group">
@@ -248,32 +248,36 @@ onUnmounted(() => {
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {
-    background: #8f8f8f;
+    background: #d1d5db;
     /* Light gray background */
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-    background-color: #636363;
+    background-color: #c5c9cedc;
     /* Tailwind's gray-400 */
-    border-radius: 2px;
+    border-radius: 3px;
+    border: none;
+    
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-    background-color: #4b4b4b;
+    background-color: #c2c2c2;
     /* Tailwind's gray-600 */
 }
 
 /* Dark theme styles */
 .dark .scrollbar-custom::-webkit-scrollbar-track {
-  background: #6b6e72; /* Tailwind's gray-700 */
+  background: #4b5563; /* Tailwind's gray-700 */
 }
 
 .dark .scrollbar-custom::-webkit-scrollbar-thumb {
-  background-color: #444444; /* Tailwind's gray-600 */
+  background-color: #3d4652e7; /* Tailwind's gray-600 */
 }
 
 .dark .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-  background-color: #333333; /* Tailwind's gray-800 */
+  background-color: #888888; /* Tailwind's gray-800 */
+  border-radius: 3px;
+    border: none;
 }
 </style>
 
