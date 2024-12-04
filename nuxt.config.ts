@@ -14,14 +14,14 @@ export default defineNuxtConfig({
     ai: false,
     blob: false,
     browser: false,
-    cache: true,
+    cache: false,
     database: false,
     kv: false,
     remote: false
   },
   nitro: {
     experimental: {
-      openAPI: true
+      openAPI: false
     }
   },
   site: {
@@ -50,7 +50,7 @@ export default defineNuxtConfig({
       ogTitle: 'Made With Nuxtjs',
 
       // Other Nuxt SEO modules handles these
-      ogImage: 'https://www.madewithnuxtjs.com/logo.png',
+      // ogImage: 'https://www.madewithnuxtjs.com/logo.png',
       robots: 'index, follow',
     }
   },
