@@ -24,5 +24,6 @@ useSeoMeta({
             <CardsBestBuy />
         </section>
         
+
     </main>
 </template>

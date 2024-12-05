@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="fixed shadow-lg top-0 z-40 w-full transition-all duration-700 ease-in-out bg-light-background-primary dark:bg-dark-background-primary dark:border-gray-700 h-[72px] lg:h-[92px] xl:h-[92px]" :class="{ '-translate-y-full': !isHeaderVisible, 'translate-y-0': isHeaderVisible }">
+        <nav class="fixed shadow-lg top-0 z-40 w-full transition-all duration-300 ease-in-out bg-light-background-primary dark:bg-dark-background-primary dark:border-gray-700 h-[72px] lg:h-[92px] xl:h-[92px]" :class="{ '-translate-y-full': !isHeaderVisible, 'translate-y-0': isHeaderVisible }">
             <div class="flex justify-between items-center mx-auto px-3 pt-5 lg:pt-6 xl:pt-6">
                 <div class="flex justify-between items-center w-40 sm:w-48 md:w-48 lg:w-48 xl:w-48">
                     <div class="pl-0 md:pl-1 lg:pl-2 xl:pl-2">
