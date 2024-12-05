@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap items-start justify-start gap-4">
+    <div class="flex flex-wrap items-start justify-center gap-4">
 
         <div class="card section-card ratio-4-3 border-none" :ui="{
             rounded: 'rounded-none',
@@ -9,7 +9,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer"
-                src="https://www.brothersfurniture.com.bd/_ipx/q_90&s_170x45/logo.webp" />
+                src="#" />
             <div class="p-4">
                 <h3 class="w-64 py-4">Don’t miss out on exclusive deals.</h3>
 
@@ -31,16 +31,8 @@
                     src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9ac5d1ec-3b32-4adb-a2f5-adc8b3c047e9.jpg;maxHeight=240;maxWidth=240" />
                 <div class="flex flex-col pt-4 gap-2">
                     <a class="cursor-pointer text-center py-2">Alexzander Corner Sofa</a>
-
                     <h2>135,000.00 Tk.</h2>
-
-
-                    <UButton label="+ Save an extra 3.5% with Plus" color="gray">
-                        <template #trailing>
-                            <UIcon name="ic:baseline-keyboard-arrow-right" class="w-5 h-5" />
-                        </template>
-                    </UButton>
-
+                    <p class="currency-strike text-center">86,000.00 Tk.</p>
                 </div>
             </div>
         </UCard>
@@ -55,16 +47,8 @@
             src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9ac5d1ec-3b32-4adb-a2f5-adc8b3c047e9.jpg;maxHeight=240;maxWidth=240" />
             <div class="flex flex-col pt-4 gap-2">
                 <a class="cursor-pointer text-center py-2">Alexzander Corner Sofa</a>
-
                 <h2>135,000.00 Tk.</h2>
-               
-
-                    <UButton label="+ Save an extra 3.5% with Plus" color="gray">
-                        <template #trailing>
-                            <UIcon name="ic:baseline-keyboard-arrow-right" class="w-5 h-5" />
-                        </template>
-                    </UButton>
-           
+                <p class="currency-strike text-center">86,000.00 Tk.</p>
             </div>
         </div>
         </UCard>
@@ -79,16 +63,8 @@
             src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533554cv11d.jpg;maxHeight=240;maxWidth=240" />
             <div class="flex flex-col pt-4 gap-2">
                 <a class="cursor-pointer text-center py-2">Alexzander Corner Sofa</a>
-
                 <h2>135,000.00 Tk.</h2>
-               
-
-                    <UButton label="+ Save an extra 3.5% with Plus" color="gray">
-                        <template #trailing>
-                            <UIcon name="ic:baseline-keyboard-arrow-right" class="w-5 h-5" />
-                        </template>
-                    </UButton>
-           
+                <p class="currency-strike text-center">86,000.00 Tk.</p>
             </div>
         </div>
         </UCard>
@@ -103,16 +79,8 @@
             src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ed0cfc76-5b94-4e84-af82-a3cc7cff60e4.jpg;maxHeight=240;maxWidth=240" />
             <div class="flex flex-col pt-4 gap-2">
                 <a class="cursor-pointer text-center py-2">Alexzander Corner Sofa</a>
-
                 <h2>135,000.00 Tk.</h2>
-               
-
-                    <UButton label="+ Save an extra 3.5% with Plus" color="gray">
-                        <template #trailing>
-                            <UIcon name="ic:baseline-keyboard-arrow-right" class="w-5 h-5" />
-                        </template>
-                    </UButton>
-           
+                <p class="currency-strike text-center">86,000.00 Tk.</p>
             </div>
         </div>
         </UCard>

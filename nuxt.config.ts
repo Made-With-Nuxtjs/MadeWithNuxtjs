@@ -2,28 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: [
-    '@nuxt/ui',
-    '@nuxt/icon',
-    '@nuxt/image',
-    '@vueuse/nuxt',
-    '@nuxtjs/seo',
-    '@nuxthub/core'
-  ],
-  hub: {
-    ai: false,
-    blob: false,
-    browser: false,
-    cache: false,
-    database: false,
-    kv: false,
-    remote: false
-  },
-  nitro: {
-    experimental: {
-      openAPI: false
-    }
-  },
+  modules: ['@nuxt/ui', '@nuxt/icon', '@nuxt/image', '@vueuse/nuxt', '@nuxtjs/seo'],
   site: {
     url: 'https://www.madewithnuxtjs.com',
     name: 'Made With Nuxtjs',
@@ -50,12 +29,9 @@ export default defineNuxtConfig({
       ogTitle: 'Made With Nuxtjs',
 
       // Other Nuxt SEO modules handles these
-      // ogImage: 'https://www.madewithnuxtjs.com/logo.png',
+      ogImage: 'https://www.madewithnuxtjs.com/logo.png',
       robots: 'index, follow',
     }
-  },
-  robots: {
-    enabled: false
   },
   image: {
     quality: 80,

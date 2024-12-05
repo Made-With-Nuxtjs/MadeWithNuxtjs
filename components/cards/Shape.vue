@@ -8,14 +8,20 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/500" />
-            <div class="p-4">
-                <h3 class="cursor-pointer">Durban Corner Sofa</h3>
-                <div class="flex justify-between pt-2">
+            <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
+                <UBadge>50%</UBadge>
+            </div>
+            <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
+                <UIcon name="material-symbols-light:trending-up" class="w-4 h-4" />
+                <p>3k</p>
+            </div>
+            <div class="p-4 flex justify-between">
+                <h6 class="cursor-pointer">Durban Corner Sofa</h6>
+                <div class="flex flex-col items-end">
                     <div>
-                        <p class="currency">Price: 80,000.00 Tk.</p>
-                        <p class="currency-strike">86,000.00 Tk.</p>
+                        <p class="currency text-end">Price: 80,000.00 Tk.</p>
+                        <p class="currency-strike text-end">86,000.00 Tk.</p>
                     </div>
-                    <UBadge class="my-2">Save 5%</UBadge>
                 </div>
             </div>
         </UCard>
@@ -35,7 +41,6 @@
                         <p class="currency">Price: 80,000.00 Tk.</p>
                         <p class="currency-strike">86,000.00 Tk.</p>
                     </div>
-                    <UBadge class="my-2">Save 5%</UBadge>
                 </div>
             </div>
         </UCard>
@@ -66,7 +71,6 @@
                         <p class="currency">Price: 80,000.00 Tk.</p>
                         <p class="currency-strike">86,000.00 Tk.</p>
                     </div>
-                    <UBadge class="my-2">Save 5%</UBadge>
                 </div>
             </div>
         </UCard>
@@ -81,7 +85,6 @@
             <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/400" />
             <div class="p-4 flex flex-col justify-center items-center">
                 <h3 class="cursor-pointer">Durban Corner Sofa</h3>
-                <UBadge class="my-1">Save 5%</UBadge>
                 <p class="currency">Price: 80,000.00 Tk.</p>
                 <p class="currency-strike">86,000.00 Tk.</p>
             </div>

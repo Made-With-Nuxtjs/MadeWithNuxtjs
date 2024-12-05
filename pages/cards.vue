@@ -23,6 +23,6 @@ useSeoMeta({
             </div>
             <CardsBestBuy />
         </section>
-
+        
     </main>
 </template>

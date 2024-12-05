@@ -138,12 +138,15 @@ onUnmounted(() => {
 
 </script>
 <template>
-    <aside @mouseenter="when_is_hover" @mouseleave="when_is_not_hover" v-show="openRightSidebar || !is_rightSidebar" :class="{ 'top-0': !isHeaderVisible, 'top-[72px] lg:top-[92px] xl:top-[92px] ': isHeaderVisible }"
-        class="hidden md:flex lg:flex fixed flex-col justify-between transition-transform duration-500 ease-in-out right-0 z-40 w-18 h-screen bg-light-background-secondary border-r border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary" style="transition: transform 0.5s ease-in-out;" aria-label="Sidebar">
+    <aside @mouseenter="when_is_hover" @mouseleave="when_is_not_hover" v-show="openRightSidebar || !is_rightSidebar"
+        :class="{ 'top-0': !isHeaderVisible, 'top-[72px] lg:top-[92px] xl:top-[92px] ': isHeaderVisible }"
+        class="hidden md:flex lg:flex fixed flex-col justify-between transition-transform duration-500 ease-in-out right-0 z-40 w-18 h-screen bg-light-background-secondary border-r border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary"
+        style="transition: transform 0.5s ease-in-out;" aria-label="Sidebar">
         <div class="flex justify-end py-1 overflow-auto hover:overflow-y-auto h-full scrollbar-custom">
             <ul class="space-y-2 p-3">
                 <li v-for="item in menuItems" :key="item.label" class="group">
-                    <a href="#" class="flex items-center p-1 text-gray-900 rounded-lg dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <a href="#"
+                        class="flex items-center p-1 text-gray-900 rounded-lg dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <UIcon :name="item.icon ?? 'material-symbols-light:dashboard'" :class="{
                             'text-[28px]': true
                         }" />
@@ -151,37 +154,40 @@ onUnmounted(() => {
                 </li>
             </ul>
         </div>
-        <div :class="{ 'top-0': !isHeaderVisible, 'pb-20 md:pb-20 lg:pb-24 xl:pb-24': isHeaderVisible }" class="pb-3 lg:pb-2 xl:pb-1">
+        <div :class="{ 'top-0': !isHeaderVisible, 'pb-20 md:pb-20 lg:pb-24 xl:pb-24': isHeaderVisible }"
+            class="pb-3 lg:pb-2 xl:pb-1">
             <UDivider class="text-gray-700 dark:text-gray-200" />
             <div class="pl-4 pt-3 pb-1">
                 <ColorMode />
             </div>
         </div>
     </aside>
-    <aside @mouseenter="when_is_hover" @mouseleave="when_is_not_hover" v-if="rightSidebar || is_rightSidebar" :class="{ 'top-0': !isHeaderVisible, 'top-[72px] lg:top-[92px] xl:top-[92px]': isHeaderVisible }" class="fixed flex flex-col justify-between right-0 z-40 w-64 h-screen bg-light-background-secondary border-r border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary"
+    <aside @mouseenter="when_is_hover" @mouseleave="when_is_not_hover" v-if="rightSidebar || is_rightSidebar"
+        :class="{ 'top-0': !isHeaderVisible, 'top-[72px] lg:top-[92px] xl:top-[92px]': isHeaderVisible }"
+        class="fixed flex flex-col justify-between right-0 z-40 w-64 h-screen bg-light-background-secondary border-r border-gray-200 sm:translate-x-0 dark:bg-dark-background-secondary"
         aria-label="Sidebar">
         <div class="py-1 overflow-y-auto h-full scrollbar-custom">
             <ul class="space-y-1 lg:space-y-2 xl:space-y-2 p-3 text-gray-950 dark:text-gray-100">
                 <li v-for="item in menuItems" :key="item.label" class="group">
-                    <div class="flex items-center justify-between p-1 text-gray-900 rounded-lg dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 group" @click="toggleSubmenu(item)">
+                    <div class="flex items-center justify-between p-1 text-gray-900 rounded-lg dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                        @click="toggleSubmenu(item)">
                         <ULink :to="item.url">
                             <div class="flex items-center gap-2 lg:gap-3 xl:gap-3">
                                 <UIcon :name="item.icon ?? 'material-symbols-light:dashboard'" :class="{
                                     'text-[28px]': true
                                 }" />
-                                <span>{{ item.label }}</span>
+                                <span :class="item.children ? 'w-36' : 'w-48'">{{ item.label }}</span>
                             </div>
                         </ULink>
-                        <span>
-                            <UIcon v-if="item.children" name="material-symbols-light:keyboard-arrow-up" :class="{
-                                'rotate-180': item.isOpen,
-                                'rotate-0': !item.isOpen,
-                            }" />
-                        </span>
+                        <UIcon v-if="item.children" name="material-symbols-light:keyboard-arrow-up" :class="{
+                            'rotate-180': item.isOpen,
+                            'rotate-0': !item.isOpen,
+                        }" />
                     </div>
                     <!-- Submenu -->
                     <ul v-if="item.isOpen" class="space-y-2 ml-2 lg:ml-5 xl:ml-6 mt-2 text-gray-900 dark:text-gray-200">
-                        <li v-for="subItem in item.children" :key="subItem.label" class="flex items-center justify-between p-2 rounded cursor-pointer text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <li v-for="subItem in item.children" :key="subItem.label"
+                            class="flex items-center justify-between p-2 rounded cursor-pointer text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 group">
                             <div class="flex items-center gap-1 lg:gap-3 xl:gap-2">
                                 <UIcon class="dark:bg-gray-100" name="material-symbols-light:line-start-rounded" />
                                 <span :class="{
@@ -190,19 +196,19 @@ onUnmounted(() => {
                                     'xl:text-[14px]': true
                                 }">{{ subItem.label }}</span>
                             </div>
-                            <span v-if="subItem.isStarred" class="text-yellow-900 dark:text-yellow-500">
-                                <UIcon size="10px" name="material-symbols-light:kid-star" :class="{
+                            <UIcon v-if="subItem.isStarred" class="text-yellow-900 dark:text-yellow-500" size="10px"
+                                name="material-symbols-light:kid-star" :class="{
                                     'text-[20px]': true,
                                     'lg:text-[24px]': true,
                                     'xl:text-[24px]': true
                                 }" />
-                            </span>
                         </li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div :class="{ 'top-0': !isHeaderVisible, 'pb-20 md:pb-20 lg:pb-24 xl:pb-24': isHeaderVisible }" class="pb-3 lg:pb-2 xl:pb-1">
+        <div :class="{ 'top-0': !isHeaderVisible, 'pb-20 md:pb-20 lg:pb-24 xl:pb-24': isHeaderVisible }"
+            class="pb-3 lg:pb-2 xl:pb-1">
             <UDivider class="dark:bg-gray-200" />
             <div class="pl-3 pt-3 pb-1">
                 <ColorMode />
@@ -213,7 +219,7 @@ onUnmounted(() => {
 <style scoped>
 /* Light theme styles */
 .scrollbar-custom::-webkit-scrollbar {
-  width: 5px;
+    width: 5px;
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {
@@ -226,7 +232,7 @@ onUnmounted(() => {
     /* Tailwind's gray-400 */
     border-radius: 3px;
     border: none;
-    
+
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
@@ -236,16 +242,19 @@ onUnmounted(() => {
 
 /* Dark theme styles */
 .dark .scrollbar-custom::-webkit-scrollbar-track {
-  background: #4b5563; /* Tailwind's gray-700 */
+    background: #4b5563;
+    /* Tailwind's gray-700 */
 }
 
 .dark .scrollbar-custom::-webkit-scrollbar-thumb {
-  background-color: #3d4652e7; /* Tailwind's gray-600 */
+    background-color: #3d4652e7;
+    /* Tailwind's gray-600 */
 }
 
 .dark .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-  background-color: #888888; /* Tailwind's gray-800 */
-  border-radius: 3px;
+    background-color: #888888;
+    /* Tailwind's gray-800 */
+    border-radius: 3px;
     border: none;
 }
 </style>
