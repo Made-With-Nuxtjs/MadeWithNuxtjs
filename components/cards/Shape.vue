@@ -7,7 +7,8 @@
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/500" />
+            <NuxtImg alt="card-img" class="cursor-pointer w-full"
+                src="https://m.media-amazon.com/images/I/81JpvluTFwL._AC_UL320_.jpg" />
             <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
                 <UBadge>50%</UBadge>
             </div>
@@ -15,16 +16,15 @@
                 <UIcon name="material-symbols-light:trending-up" class="w-4 h-4" />
                 <p>3k</p>
             </div>
-            <div class="p-4 flex justify-between">
-                <h6 class="cursor-pointer">Durban Corner Sofa</h6>
-                <div class="flex flex-col items-end">
-                    <div>
-                        <p class="currency text-end">Price: 80,000.00 Tk.</p>
-                        <p class="currency-strike text-end">86,000.00 Tk.</p>
-                    </div>
+            <div class="p-4 flex flex-col gap-2">
+                <h5 class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</h5>
+                <div class="flex justify-between">
+                    <p class="currency-strike">86,000.00 Tk.</p>
+                    <p class="currency">Price: 80,000.00 Tk.</p>
                 </div>
             </div>
         </UCard>
+
 
         <!-- Rectangle Rounded Shape -->
         <UCard class="card card-2 ratio-4-3" :ui="{
@@ -34,13 +34,15 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full rounded-t-lg" src="https://placehold.co/400" />
-            <div class="p-4">
-                <h3 class="cursor-pointer">Durban Corner Sofa</h3>
-                <div class="flex justify-between pt-2">
-                    <div>
-                        <p class="currency">Price: 80,000.00 Tk.</p>
-                        <p class="currency-strike">86,000.00 Tk.</p>
-                    </div>
+            <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
+                <UIcon name="material-symbols-light:trending-up" class="w-4 h-4" />
+                <p>3k</p>
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+                <h5 class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</h5>
+                <div class="flex justify-between">
+                    <p class="discount">OFF 5%</p>
+                    <p class="currency">Price: 80,000.00 Tk.</p>
                 </div>
             </div>
         </UCard>
@@ -52,26 +54,28 @@
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer object-cover w-full h-full" src="https://placehold.co/400" />
-
+            <NuxtImg alt="card-img" class="cursor-pointer object-cover w-full h-full"
+                src="https://m.media-amazon.com/images/I/61JavBEclHL._AC_SX466_.jpg" />
+            <div class="card-circle-overlay popup-text flex-col gap-2">
+                <h5 class="cursor-pointer">Cape Town Sofa</h5>
+                <p class="currency">Price: 80,000.00 Tk.</p>
+            </div>
         </UCard>
 
         <!-- Semicircle Shape -->
-        <UCard class="semicircle rounded-t-full" :ui="{
+        <UCard class="semicircle rounded-t-full ratio-4-3" :ui="{
             body: {
                 padding: 'px-0 py-0 sm:p-0',
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/400" />
-            <div class="p-4">
-                <h3 class="cursor-pointer">Durban Corner Sofa</h3>
-                <div class="flex justify-between pt-2">
-                    <div>
-                        <p class="currency">Price: 80,000.00 Tk.</p>
-                        <p class="currency-strike">86,000.00 Tk.</p>
-                    </div>
-                </div>
+            <NuxtImg alt="card-img" class="cursor-pointer w-full"
+                src="https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_UL320_.jpg" />
+            <div class="p-4 semicircle-overlay">
+                <h5 class="cursor-pointer">Durban Corner Sofa</h5>
+                <p class="currency">Price: 80,000.00 Tk.</p>
+                <p class="currency-strike">86,000.00 Tk.</p>
+
             </div>
         </UCard>
 
@@ -82,9 +86,10 @@
                 background: 'bg-gray-300 dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/400" />
-            <div class="p-4 flex flex-col justify-center items-center">
-                <h3 class="cursor-pointer">Durban Corner Sofa</h3>
+            <NuxtImg alt="card-img" class="cursor-pointer w-full"
+                src="https://m.media-amazon.com/images/I/51j24zABvAL._AC_SX679_.jpg" />
+            <div class="p-2 pentagon-overlay text-center">
+                <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
                 <p class="currency-strike">86,000.00 Tk.</p>
             </div>

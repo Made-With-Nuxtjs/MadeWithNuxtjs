@@ -9,7 +9,7 @@
         }">
             <div class="flex flex-col justify-center items-center">
                 <NuxtImg alt="card-img" class="cursor-pointer"
-                    src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9ac5d1ec-3b32-4adb-a2f5-adc8b3c047e9.jpg;maxHeight=240;maxWidth=240" />
+                    src="https://m.media-amazon.com/images/I/81JpvluTFwL._AC_UL320_.jpg" />
                 <div class="flex flex-col pt-4 gap-2">
                     <a class="cursor-pointer text-center py-2">Alexzander Corner Sofa</a>
                     <h2>135,000.00 Tk.</h2>
