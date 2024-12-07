@@ -13,7 +13,7 @@
                 <NuxtImg src="https://placehold.co/150" alt="Madrid Corner Sofa" />
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
+                <p class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</p>
                 <p class="currency text-end">80,000.00 Tk.</p>
             </div>
         </UCard>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
+                <p class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</p>
                 <p class="currency text-end">80,000.00 Tk.</p>
             </div>
         </UCard>
@@ -69,10 +69,10 @@
                 </UBadge>
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
+                <p class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</p>
                 <div class="flex flex-col text-end">
                     <p class="discount">-50.00%</p>
-                    <p class="currency">15,250.00 Tk.</p>
+                    <p>15,250.00 Tk.</p>
                 </div>
             </div>
         </UCard>
@@ -104,10 +104,10 @@
                 </UBadge>
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
+                <p class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</p>
                 <div class="flex flex-col text-end">
                     <p class="currency-strike">86,000.00 Tk.</p>
-                    <p class="currency">80,000.00 Tk.</p>
+                    <p>80,000.00 Tk.</p>
                 </div>
             </div>
         </UCard>
@@ -136,9 +136,9 @@
             </div>
             <UDivider />
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</h6>
+                <p class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</p>
                 <div class="flex flex-col text-end">
-                    <p class="currency">80,000.00 Tk.</p>
+                    <p>80,000.00 Tk.</p>
                     <div>
                         <UIcon name="material-symbols-light:star-rate" class="w-4 h-4 text-primary-500" />
                         <UIcon name="material-symbols-light:star-rate" class="w-4 h-4 text-primary-500" />
@@ -167,9 +167,9 @@
             </div>
             <UDivider />
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</h6>
+                <p class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</p>
                 <div class="flex flex-col text-end">
-                    <p class="currency">80,000.00 Tk.</p>
+                    <p>80,000.00 Tk.</p>
                     <div>
                         <UIcon name="material-symbols-light:star-rate" class="w-4 h-4 text-primary-500" />
                         <UIcon name="material-symbols-light:star-rate" class="w-4 h-4 text-primary-500" />
@@ -191,8 +191,8 @@
                 <NuxtImg src="https://placehold.co/150" alt="Madrid Corner Sofa" />
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
-                <p class="currency text-end">80,000.00 Tk.</p>
+                <p class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</p>
+                <p class="text-end">80,000.00 Tk.</p>
             </div>
         </UCard>
 
@@ -208,8 +208,8 @@
                 <NuxtImg src="https://placehold.co/150" alt="Madrid Corner Sofa" />
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
-                <p class="currency text-end">80,000.00 Tk.</p>
+                <p class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</p>
+                <p class="text-end">80,000.00 Tk.</p>
             </div>
         </UCard>
          <!-- First UCard -->
@@ -224,8 +224,8 @@
                 <NuxtImg src="https://placehold.co/150" alt="Madrid Corner Sofa" />
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
-                <p class="currency text-end">80,000.00 Tk.</p>
+                <p>Cape Town Sofa Cum Bed 2 Seater</p>
+                <p class="text-end">80,000.00 Tk.</p>
             </div>
         </UCard>
          <!-- First UCard -->
@@ -240,8 +240,8 @@
                 <NuxtImg src="https://placehold.co/150" alt="Madrid Corner Sofa" />
             </div>
             <div class="p-4 flex flex-col gap-2">
-                <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
-                <p class="currency text-end">80,000.00 Tk.</p>
+                <p>Cape Town Sofa Cum Bed 2 Seater</p>
+                <p class="text-end">80,000.00 Tk.</p>
             </div>
         </UCard>
 
