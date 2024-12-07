@@ -21,6 +21,7 @@
   "devDependencies": {
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.19.2",
+    "@nuxthub/core": "^0.8.7",
     "@nuxtjs/seo": "^2.0.2",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",

@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxt/icon', '@nuxt/image', '@vueuse/nuxt', '@nuxtjs/seo'],
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@vueuse/nuxt',
+    '@nuxtjs/seo',
+    '@nuxthub/core'
+  ],
   site: {
     url: 'https://www.madewithnuxtjs.com',
     name: 'Made With Nuxtjs',
@@ -25,11 +32,11 @@ export default defineNuxtConfig({
       ogSiteName: 'Made With Nuxtjs',
       ogLocale: 'en_US',
       ogType: 'website',
-      ogUrl: 'https://www.madewithnuxtjs.com',
+      // ogUrl: 'https://www.madewithnuxtjs.com',
       ogTitle: 'Made With Nuxtjs',
 
       // Other Nuxt SEO modules handles these
-      ogImage: 'https://www.madewithnuxtjs.com/logo.png',
+      // ogImage: 'https://www.madewithnuxtjs.com/logo.png',
       robots: 'index, follow',
     }
   },
