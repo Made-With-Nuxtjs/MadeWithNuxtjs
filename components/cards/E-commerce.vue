@@ -9,7 +9,7 @@
             },
         }">
             <!-- Image Section -->
-            <div class="relative">
+            <div class="relative cursor-pointer">
                 <NuxtImg src="https://placehold.co/400" alt="Madrid Corner Sofa" class="w-full" />
             </div>
             <div class="p-4 flex flex-col gap-2">
@@ -26,16 +26,16 @@
             },
         }">
             <!-- Image Section -->
-            <div class="relative">
+            <div class="relative cursor-pointer">
                 <NuxtImg src="https://placehold.co/400" alt="Madrid Corner Sofa" class="w-full" />
                 <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
-                    <UIcon name="material-symbols-light:bookmark-sharp" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:bookmark-sharp" class="w-5 h-5 text-primary-500" />
                 </div>
                 <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
-                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5 text-primary-500" />
                     <p>3k</p>
                 </div>
-            </div>         
+            </div>
             <div class="p-4 flex flex-col gap-2">
                 <h5 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h5>
                 <p class="currency text-end">Price: 80,000.00 Tk.</p>
@@ -50,16 +50,16 @@
             },
         }">
             <!-- Image Section -->
-            <div class="relative">
+            <div class="relative cursor-pointer">
                 <NuxtImg src="https://placehold.co/400" alt="Madrid Corner Sofa" class="w-full" />
                 <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
-                    <UIcon name="material-symbols-light:bookmark-sharp" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:bookmark-sharp" class="w-5 h-5 text-primary-500" />
                 </div>
                 <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
-                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5 text-primary-500" />
                     <p>3k</p>
                 </div>
-                <UBadge class="absolute -bottom-4 right-1 px-3 py-1 rounded-lg shadow-md" :ui="{
+                <UBadge class="absolute -bottom-4 right-1" :ui="{
                     gap: {
                         xs: 'gap-0.5'
                     },
@@ -85,16 +85,16 @@
             },
         }">
             <!-- Image Section -->
-            <div class="relative">
+            <div class="relative cursor-pointer">
                 <NuxtImg src="https://placehold.co/400" alt="Madrid Corner Sofa" class="w-full" />
                 <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
-                    <UBadge color="gray" label="-5.00%" />
+                    <UBadge label="-5.00%" />
                 </div>
                 <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
-                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5 text-primary-500" />
                     <p>3k</p>
                 </div>
-                <UBadge class="absolute -bottom-4 right-1 px-3 py-1 rounded-lg shadow-md" :ui="{
+                <UBadge class="absolute -bottom-4 right-1" :ui="{
                     gap: {
                         xs: 'gap-0.5'
                     },
@@ -120,24 +120,30 @@
             },
         }">
             <!-- Image Section -->
-            <div class="relative">
-                <NuxtImg src="https://placehold.co/400" alt="Madrid Corner Sofa" class="w-full" />
+            <div class="relative cursor-pointer">
+                <NuxtImg src="https://placehold.co/400" alt="Madrid Corner Sofa" class="w-full rounded-t-lg" />
                 <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
-                    <UIcon name="material-symbols-light:bookmark-sharp" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:bookmark-sharp" class="w-5 h-5 text-primary-500" />
                 </div>
                 <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
-                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5" />
+                    <UIcon name="material-symbols-light:trending-up" class="w-5 h-5 text-primary-500" />
                     <p>3k</p>
                 </div>
+                
+                <UChip class="absolute -bottom-4 right-1 cursor-pointer" text="3" size="lg">
+                    <!-- <UButton icon="material-symbols-light:recommend-outline-sharp" color="gray" /> -->
+                    <UIcon name="material-symbols-light:recommend-outline-sharp" class="w-6 h-6" />
+                </UChip>
             </div>
+            <UDivider />
             <div class="p-4 flex flex-col gap-2">
-                <h5 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h5>
+                <h5 class="cursor-pointer">Cape Town Sofa Cum Bed 2 Seater</h5>
                 <div class="flex justify-between">
                     <p class="currency">Price: 80,000.00 Tk.</p>
                     <div>
-                        <UIcon name="material-symbols-light:star-rate" class="w-4 h-4" />
-                        <UIcon name="material-symbols-light:star-rate" class="w-4 h-4" />
-                        <UIcon name="material-symbols-light:star-rate-half" class="w-4 h-4" />
+                        <UIcon name="material-symbols-light:star-rate" class="w-4 h-4 text-primary-500" />
+                        <UIcon name="material-symbols-light:star-rate" class="w-4 h-4 text-primary-500" />
+                        <UIcon name="material-symbols-light:star-rate-half" class="w-4 h-4 text-primary-500" />
                     </div>
                 </div>
             </div>
