@@ -13,11 +13,6 @@ export default defineNuxtConfig({
   image: {
     quality: 80,
   },
-  icon: {
-    serverBundle: {
-      collections: ['mdi'] // <!--- this
-    },
-  },
   webpack: {
     extractCSS: true,
     optimization: {
