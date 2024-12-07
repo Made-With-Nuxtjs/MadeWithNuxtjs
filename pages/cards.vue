@@ -15,13 +15,30 @@ useSeoMeta({
             <CardsShape />
         </section>
 
-        <!-- Card style by E-commerce -->
+        <!-- Card style by E-commerce Big -->
         <section class="paperStyle p-4">
             <div>
-                <h3>Card E-commerce  #2</h3>
+                <h3>Card E-commerce (Big)  #2</h3>
                 <UDivider color="white" class="py-4" />
             </div>
             <CardsE-commerce />
+        </section>
+
+         <!-- Card style by E-commerce Md -->
+         <section class="paperStyle p-4">
+            <div>
+                <h3>Card E-commerce (Md)  #3</h3>
+                <UDivider color="white" class="py-4" />
+            </div>
+            <CardsE-commerceMd />
+        </section>
+         <!-- Card style by E-commerce Sm -->
+         <section class="paperStyle p-4">
+            <div>
+                <h3>Card E-commerce (Sm)  #4</h3>
+                <UDivider color="white" class="py-4" />
+            </div>
+            <CardsE-commerceSm />
         </section>
         
 

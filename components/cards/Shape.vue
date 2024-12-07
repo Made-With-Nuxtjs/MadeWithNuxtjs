@@ -8,7 +8,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://placehold.co/400" />
+                src="https://placehold.co/300" />
             <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
                 <UBadge>50%</UBadge>
             </div>
@@ -33,7 +33,7 @@
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full rounded-t-lg" src="https://placehold.co/400" />
+            <NuxtImg alt="card-img" class="cursor-pointer w-full rounded-t-lg" src="https://placehold.co/300" />
             <div class="absolute flex justify-center items-center" style="top: 10px; right: 12px; opacity: 100%">
                 <UIcon name="material-symbols-light:trending-up" class="w-4 h-4" />
                 <p>3k</p>
@@ -55,7 +55,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer object-cover w-full h-full"
-                src="https://placehold.co/400" />
+                src="https://placehold.co/300" />
             <div class="card-circle-overlay popup-text flex-col gap-2">
                 <h5 class="cursor-pointer">Cape Town Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
@@ -70,7 +70,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://placehold.co/400" />
+                src="https://placehold.co/300" />
             <div class="p-4 semicircle-overlay">
                 <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
@@ -87,12 +87,13 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://placehold.co/400" />
+                src="https://placehold.co/300" />
             <div class="p-2 pentagon-overlay text-center">
                 <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
                 <p class="currency-strike">86,000.00 Tk.</p>
             </div>
         </UCard>
+        
     </div>
 </template>
