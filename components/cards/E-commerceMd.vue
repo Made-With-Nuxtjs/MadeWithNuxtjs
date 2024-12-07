@@ -105,7 +105,7 @@
             </div>
             <div class="p-4 flex flex-col gap-2">
                 <h6 class="cursor-pointer pt-2">Cape Town Sofa Cum Bed 2 Seater</h6>
-                <div class="flex justify-between">
+                <div class="flex flex-col text-end">
                     <p class="currency-strike">86,000.00 Tk.</p>
                     <p class="currency">80,000.00 Tk.</p>
                 </div>
