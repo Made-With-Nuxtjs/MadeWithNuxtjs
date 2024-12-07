@@ -8,7 +8,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://m.media-amazon.com/images/I/81JpvluTFwL._AC_UL320_.jpg" />
+                src="https://placehold.co/400" />
             <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
                 <UBadge>50%</UBadge>
             </div>
@@ -55,7 +55,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer object-cover w-full h-full"
-                src="https://m.media-amazon.com/images/I/61JavBEclHL._AC_SX466_.jpg" />
+                src="https://placehold.co/400" />
             <div class="card-circle-overlay popup-text flex-col gap-2">
                 <h5 class="cursor-pointer">Cape Town Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
@@ -70,7 +70,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_UL320_.jpg" />
+                src="https://placehold.co/400" />
             <div class="p-4 semicircle-overlay">
                 <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
@@ -87,7 +87,7 @@
             },
         }">
             <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://m.media-amazon.com/images/I/51j24zABvAL._AC_SX679_.jpg" />
+                src="https://placehold.co/400" />
             <div class="p-2 pentagon-overlay text-center">
                 <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>

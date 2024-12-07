@@ -98,7 +98,7 @@ button {
 
 .discount {
   @apply text-light-text-secondary dark:text-dark-text-muted;
-  font-size: 10pt; /* Base font size (16px) */
+  font-size: 11pt; /* Base font size (16px) */
   line-height: 1.4rem;
   font-style: normal;
 }

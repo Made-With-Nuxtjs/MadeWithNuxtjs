@@ -15,13 +15,13 @@ useSeoMeta({
             <CardsShape />
         </section>
 
-        <!-- Card style by Best Buy -->
+        <!-- Card style by E-commerce -->
         <section class="paperStyle p-4">
             <div>
-                <h3>Card Best Buy #2</h3>
+                <h3>Card E-commerce  #2</h3>
                 <UDivider color="white" class="py-4" />
             </div>
-            <CardsBestBuy />
+            <CardsE-commerce />
         </section>
         
 
