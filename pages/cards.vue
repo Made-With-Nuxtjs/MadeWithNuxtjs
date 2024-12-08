@@ -40,7 +40,14 @@ useSeoMeta({
             </div>
             <CardsE-commerceSm />
         </section>
-        
+         <!-- Card style by E-commerce horizontal  -->
+         <section class="paperStyle p-4">
+            <div>
+                <h3>Card E-commerce (Horizontal)  #4</h3>
+                <UDivider color="white" class="py-4" />
+            </div>
+            <CardsE-commerceHorizontal />
+        </section>
 
     </main>
 </template>
