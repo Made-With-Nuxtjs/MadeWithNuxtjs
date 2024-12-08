@@ -7,8 +7,7 @@
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://placehold.co/300" />
+            <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/300" />
             <div class="absolute bg-transparent" style="top: 10px; left: 10px;">
                 <UBadge>50%</UBadge>
             </div>
@@ -24,8 +23,6 @@
                 </div>
             </div>
         </UCard>
-
-
         <!-- Rectangle Rounded Shape -->
         <UCard class="card card-2 ratio-4-3" :ui="{
             body: {
@@ -46,7 +43,6 @@
                 </div>
             </div>
         </UCard>
-
         <!-- Circle Shape -->
         <UCard class="card-circle ratio-4-3" :ui="{
             body: {
@@ -54,14 +50,12 @@
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer object-cover w-full h-full"
-                src="https://placehold.co/300" />
+            <NuxtImg alt="card-img" class="cursor-pointer object-cover w-full h-full" src="https://placehold.co/300" />
             <div class="card-circle-overlay popup-text flex-col gap-2">
                 <h5 class="cursor-pointer">Cape Town Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
             </div>
         </UCard>
-
         <!-- Semicircle Shape -->
         <UCard class="semicircle rounded-t-full ratio-4-3" :ui="{
             body: {
@@ -69,16 +63,13 @@
                 background: 'bg-light-background-card dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://placehold.co/300" />
+            <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/300" />
             <div class="p-4 semicircle-overlay">
                 <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
                 <p class="currency-strike">86,000.00 Tk.</p>
-
             </div>
         </UCard>
-
         <!-- Pentagon Shape -->
         <UCard class="pentagon ratio-4-3" :ui="{
             body: {
@@ -86,14 +77,12 @@
                 background: 'bg-gray-300 dark:bg-dark-background-card',
             },
         }">
-            <NuxtImg alt="card-img" class="cursor-pointer w-full"
-                src="https://placehold.co/300" />
+            <NuxtImg alt="card-img" class="cursor-pointer w-full" src="https://placehold.co/300" />
             <div class="p-2 pentagon-overlay text-center">
                 <h5 class="cursor-pointer">Durban Corner Sofa</h5>
                 <p class="currency">Price: 80,000.00 Tk.</p>
                 <p class="currency-strike">86,000.00 Tk.</p>
             </div>
         </UCard>
-        
     </div>
 </template>

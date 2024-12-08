@@ -12,6 +12,8 @@ export default defineNuxtConfig({
   ],
   image: {
     quality: 80,
+    domains: ['placehold.co'],
+    format: ['webp']
   },
   webpack: {
     extractCSS: true,

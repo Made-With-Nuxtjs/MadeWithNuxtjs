@@ -1,6 +1,19 @@
-<script lang="ts" setup>
-const items = useBreadcrumbItems() // uses the current route
+<script setup lang="ts">
+const links = [{
+    label: 'Dashboard',
+    to: '/'
+}, {
+    label: 'Navigation'
+}, {
+    label: 'Breadcrumb'
+}]
 </script>
 <template>
-    <UBreadcrumb :items="items" />
+    <UBreadcrumb :links="links">
+        <template #default="{ link, isActive, index }">
+            <UBadge :color="isActive ? 'primary' : 'gray'" class="rounded-full truncate">
+                {{ index + 1 }}. {{ link.label }}
+            </UBadge>
+        </template>
+    </UBreadcrumb>
 </template>

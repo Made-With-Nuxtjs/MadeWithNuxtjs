@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Typography Page | Nuxt UI Design',
+    title: 'Typography Page | Nuxt UI Design | Made With Nuxt JS',
 })
 </script>
 <template>
@@ -9,7 +9,6 @@ useSeoMeta({
         <section class="paperStyle p-4">
             <h1>Typography</h1>
         </section>
-
         <!-- Heading Tag -->
         <section class="paperStyle p-4">
             <div class="flex justify-start items-center">
@@ -21,7 +20,6 @@ useSeoMeta({
                 </div>
             </div>
             <UDivider class="py-2" />
-
             <div class="flex justify-start items-center">
                 <div class="w-36">
                     <UBadge>h1</UBadge>
@@ -46,7 +44,6 @@ useSeoMeta({
                     <h3>Headline 3</h3>
                 </div>
             </div>
-
             <div class="flex justify-start items-center py-2">
                 <div class="w-36">
                     <UBadge>h4</UBadge>
@@ -72,7 +69,6 @@ useSeoMeta({
                 </div>
             </div>
         </section>
-
         <!-- HTML Tag -->
         <section class="paperStyle p-4">
             <div class="flex justify-start items-center ">
@@ -84,37 +80,34 @@ useSeoMeta({
                 </div>
             </div>
             <UDivider class="py-2" />
-
             <div class="flex flex-row justify-start items-center py-3">
                 <div class="w-36">
                     <UBadge>Default</UBadge>
                 </div>
-                <div class="w-96">
-                    <div></div>
-                </div>
-            </div>
-
-            <div class="flex flex-row justify-start items-center py-2">
-                <div class="w-36">
-                    <UBadge>div</UBadge>
-                </div>
-                <div class="w-96">
+                <div class="w-full">
                     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
                         unde suscipit, quam beatae rerum inventore consectetur.</div>
                 </div>
             </div>
-
+            <div class="flex flex-row justify-start items-center py-2">
+                <div class="w-36">
+                    <UBadge>div</UBadge>
+                </div>
+                <div class="w-full">
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
+                        unde suscipit, quam beatae rerum inventore consectetur.</div>
+                </div>
+            </div>
             <div class="flex flex-row justify-start items-center py-2">
                 <div class="w-36">
                     <UBadge>P</UBadge>
                 </div>
-                <div class="w-96">
+                <div class="w-full">
                     <p>Body 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
                         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
                         dignissimos.</p>
                 </div>
             </div>
-
             <div class="flex justify-start items-center py-2">
                 <div class="w-36">
                     <UBadge>li</UBadge>
@@ -134,7 +127,7 @@ useSeoMeta({
                 <div class="w-36">
                     <UBadge>span</UBadge>
                 </div>
-                <div class="w-96">
+                <div class="w-full">
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis
                         tenetur
                         unde suscipit, quam beatae rerum inventore consectetur.</span>
@@ -144,12 +137,11 @@ useSeoMeta({
                 <div class="w-36">
                     <UBadge>a</UBadge>
                 </div>
-                <div class="w-96">
+                <div class="w-full">
                     <a href="#">Lorem ipsum dolor sits.</a>
                 </div>
             </div>
         </section>
-
         <!-- Class Name -->
         <section class="paperStyle p-4">
             <div class="flex justify-start items-center">
@@ -161,7 +153,6 @@ useSeoMeta({
                 </div>
             </div>
             <UDivider class="py-2" />
-
             <div class="flex flex-row justify-start items-center py-2">
                 <div class="w-36">
                     <UBadge>currency</UBadge>
@@ -178,7 +169,6 @@ useSeoMeta({
                     <p class="discount">50%</p>
                 </div>
             </div>
-
             <div class="flex flex-row justify-start items-center py-2">
                 <div class="w-36">
                     <UBadge>strike</UBadge>

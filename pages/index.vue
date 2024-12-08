@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Dashboard Page | Nuxt UI Design',
+  title: 'Dashboard Page | Nuxt UI Design | Made With Nuxt JS',
 })
 </script>
 <template>
