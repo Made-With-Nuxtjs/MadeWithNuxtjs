@@ -1,9 +1,11 @@
 <script setup lang="ts">
+const Title = "Card Page";
 useSeoMeta({
-    title: 'Card Page | Nuxt UI Design | Made With Nuxt JS',
+    title: Title + ' | Nuxt UI Design | Made With Nuxt JS',
 })
 </script>
 <template>
+    <Breadcrumbs class="pt-8" />
     <main class="mt-16 sm:mt-2 md:mt-2 lg:mt-6 xl:mt-7 flex flex-col gap-4">
         <!-- Card Shape style section -->
         <section class="paperStyle p-4">
